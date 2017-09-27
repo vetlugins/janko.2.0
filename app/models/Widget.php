@@ -8,6 +8,7 @@ class Widget extends BaseModel {
 	const WID_NUMBER = 1;
 	const WID_ADVANTAGE = 2;
 	const WID_SLIDER = 3;
+	const WID_INFO = 4;
 
 	protected function validationRules() {
 		return [];

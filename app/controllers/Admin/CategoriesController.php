@@ -42,9 +42,7 @@ class CategoriesController extends BaseController {
 
 	public function create()
 	{
-		$item = new $this->params['route'];
-
-		$parents  = $item->getPageOption();
+		$item = new $this->params['model'];
 
 		$this->params['edit_type'] = 'create';
 
@@ -52,15 +50,14 @@ class CategoriesController extends BaseController {
 			$this->viewName(__FUNCTION__),
 			[
 				'item' => $item,
-				'params' => $this->params,
-				'parents' => $parents
+				'params' => $this->getParams(__FUNCTION__),
 			]
 		);
 	}
 	
 	public function store()
 	{
-		$item = new $this->params['route'];
+		$item = new $this->params['model'];
 
 		$this->fillItem ( $item );
 
@@ -79,16 +76,13 @@ class CategoriesController extends BaseController {
 
 		$item =$this->getItem($id);
 
-		$parents  = $item->getPageOption([],$item->parent_id,$id);
-
 		$this->params['edit_type'] = 'edit';
 
 		return View::make(
 			$this->viewName(__FUNCTION__),
 			[
 				'item' => $item,
-				'params' => $this->params,
-				'parents' => $parents
+				'params' => $this->getParams(__FUNCTION__),
 			]
 		);
 	}
@@ -165,5 +159,30 @@ class CategoriesController extends BaseController {
 	{
 		$model = $this->params['model'];
 		return $model::findOrFail($id);
+	}
+
+	public function getParams($method = null, $item = null)
+	{
+		$params = $this->params;
+
+		if (in_array($method, ['create', 'edit']))
+		{
+			// parent pages
+			$pages = Category::query()->sFirstLevel();
+
+			if ($method == 'edit' && $item) {
+				$pages->where('id', '!=', $item->id);
+			}
+
+			$pages = $pages->lists('title', 'id');
+
+			$params['parentPages'] =
+				[0 => 'Верхний уровень']
+				+
+				$pages
+			;
+		}
+
+		return $params;
 	}
 }

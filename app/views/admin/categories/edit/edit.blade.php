@@ -20,9 +20,6 @@
 			<span class="btn-label">{{ HTML::icon('plus'); }}</span> Добавить категорию
 		</a>
 
-		<a href="{{route('admin.photos.index', [$params['model'], $item->id] ) }}" class="btn btn-labeled btn-info pull-right margin-right-xs">
-			<span class="btn-label">{{ HTML::icon('camera'); }}</span> Фотографии
-		</a>
 	@endif
 
 @endsection

@@ -3,6 +3,7 @@
 class BaseModel extends Eloquent{
 
 	public $errors = [];
+	public static $paginate_count;
 
 	/**
 	 * Scopes

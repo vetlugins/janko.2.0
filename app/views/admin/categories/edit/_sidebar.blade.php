@@ -28,11 +28,7 @@
         <div class="form-group">
 
             {{ Form::label('parent_id', 'Структура') }}
-
-            <select class="form-control" name="parent_id">
-                <option value="0">---</option>
-                {{ $parents }}
-            </select>
+            {{ Form::select('parent_id', $params['parentPages'], $item->parent_id, ['class' => 'form-control']) }}
 
         </div>
 
