@@ -1,0 +1,8 @@
+@import "variables";
+.user-activity {
+	li {
+		line-height: 30px;
+		border-bottom: 1px dashed $gray-light;
+		& > .fa { font-size: 20px; }
+	}
+}

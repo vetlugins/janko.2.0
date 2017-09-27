@@ -1,0 +1,12 @@
+CBGram - Express Site CB Grammatica
+
+Version 1.1 (October 24, 2014)
+---
+Bugfix with responsive in catalog pages.
+Fixed markup in the contact pages.
+Changed and added documentation.
+
+=======
+Version 1.0 (October 06, 2014)
+---
+First Release 

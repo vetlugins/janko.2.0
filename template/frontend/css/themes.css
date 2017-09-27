@@ -1,0 +1,978 @@
+/*------------------------------------------------------------------
+[ COLOR THEMING ]
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[ YELLOW ]
+color: #f8aa2e;
+-------------------------------------------------------------------*/
+
+.skin-yellow a,
+.skin-yellow .btn.btn-primary,
+.skin-yellow .nav-tabs > li > a:hover,
+.skin-yellow ul.pagination li a:hover,
+.skin-yellow .header .logo a:hover,
+.skin-yellow .hcart-list .block a:hover,
+.skin-yellow .contact-info .a-email:hover,
+.skin-yellow .hbottom.dark a:hover,
+.skin-yellow .hbottom.dark .mainmenu .navbar-nav > li > a:hover,
+.skin-yellow .hcart > a:hover,
+.skin-yellow .mainmenu li.active > a,
+.skin-yellow .mainmenu li > a:hover,
+.skin-yellow .dropdown-menu > li > a:hover,
+.skin-yellow .dropdown-menu > li > a:focus,
+.skin-yellow .dropdown-menu > li:hover > a,
+.skin-yellow .sidemenu a:hover,
+.skin-yellow .menutable li a:hover,
+.skin-yellow .menushop li a:hover,
+.skin-yellow ul.list-pages li a:hover,
+.skin-yellow ul.social li a:hover,
+.skin-yellow ul.social li a:hover i,
+.skin-yellow input:invalid,
+.skin-yellow input.invalid,
+.skin-yellow textarea:invalid,
+.skin-yellow textarea.invalid,
+.skin-yellow .formwrap.has-error input,
+.skin-yellow .chosen-container .chosen-results li.highlighted,
+.skin-yellow .slider h5 a:hover,
+.skin-yellow .cimg + h5 a:hover,
+.skin-yellow .slidebar .pagination.lined a.selected,
+.skin-yellow .slidebar .pagination.lined a:hover,
+.skin-yellow .description-table a,
+.skin-yellow .cost .new,
+.skin-yellow .catalog-bar li a:hover,
+.skin-yellow .catalog-bar li a.color,
+.skin-yellow .cart-list h5 a:hover,
+.skin-yellow .cart-list .cost .new,
+.skin-yellow .tagcloud a:hover,
+.skin-yellow .raty .fa-star,
+.skin-yellow .raty .fa-star-half-o,
+.skin-yellow .product-table a:hover,
+.skin-yellow .tooltipstered:hover,
+.skin-yellow ul.nav-category li a.active,
+.skin-yellow ul.nav-category li a:hover,
+.skin-yellow ul.nav-expand li a:hover,
+.skin-yellow .recentworks li a:after,
+.skin-yellow .footer a:hover,
+.skin-yellow .chart,
+.skin-yellow table td a:hover,
+.skin-yellow .widget ul li,
+.skin-yellow .widget ul li a:hover,
+.skin-yellow .tagcloud a:hover,
+.skin-yellow .nav.nav-vertical li.active a,
+.skin-yellow .nav.nav-horizontal li.active a,
+.skin-yellow .chosen-container .chosen-results li.no-results,
+.skin-yellow .breadcrumb li a:hover{
+    color:#FAAB10;
+}
+
+.skin-yellow .color,
+.skin-yellow a.black:hover,
+.skin-yellow ul.no-marker li a:hover,
+.skin-yellow ul.no-marker li.active a,
+.skin-yellow a.grey:hover,
+.skin-yellow .a-privacy:hover,
+.skin-yellow .chosen-container .chosen-results li:hover{
+    color: #FAAB10 !important;
+}
+
+.skin-yellow mark,
+.skin-yellow .btn.btn-default,
+.skin-yellow .sticker.sticker-sale,
+.skin-yellow ul.pagination li.active a,
+.skin-yellow ul.pagination li.active a:hover,
+.skin-yellow .scrolltop:hover:before,
+.skin-yellow .jslider .jslider-pointer,
+.skin-yellow .mask,
+.skin-yellow .accordeon-toggle:hover,
+.skin-yellow .item figure:before,
+.skin-yellow .img figure:before,
+.skin-yellow .vacancy figure,
+.skin-yellow .recentworks li a:after,
+.skin-yellow .slidebar .pagination a.selected,
+.skin-yellow .slidebar .pagination a:hover,
+.skin-yellow .jslider .jslider-bg .v,
+.skin-yellow .counting a:hover,
+.skin-yellow .btn.btn-primary:hover,
+.skin-yellow .mejs-controls .mejs-time-rail .mejs-time-current,
+.skin-yellow .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.skin-yellow ul.nav-category li a ins,
+.skin-yellow .theme{
+    background-color:#FAAB10;
+}
+
+.skin-yellow .btn.btn-primary,
+.skin-yellow .nav-tabs > li.active > a,
+.skin-yellow .nav-tabs > li.active > a:hover,
+.skin-yellow .formwrap.has-error,
+.skin-yellow .arrow:hover,
+.skin-yellow .mfp-arrow:hover{
+    border-color:#FAAB10;
+}
+
+.skin-yellow .border-top-color,
+.skin-yellow [class*=graphBar]{
+    border-top-color:#FAAB10;
+}
+
+.skin-yellow blockquote{
+    border-left: 1px solid #FAAB10;
+}
+
+.skin-yellow .bar.padding [class*=graphValue] {
+    border-bottom: 2px solid #FAAB10;
+}
+
+
+/*------------------------------------------------------------------
+[ GREEN ]
+color: #00A74D;
+-------------------------------------------------------------------*/
+
+.skin-green a,
+.skin-green .btn.btn-primary,
+.skin-green .nav-tabs > li > a:hover,
+.skin-green ul.pagination li a:hover,
+.skin-green .header .logo a:hover,
+.skin-green .hcart-list .block a:hover,
+.skin-green .contact-info .a-email:hover,
+.skin-green .hbottom.dark a:hover,
+.skin-green .hbottom.dark .mainmenu .navbar-nav > li > a:hover,
+.skin-green .hcart > a:hover,
+.skin-green .mainmenu li.active > a,
+.skin-green .mainmenu li > a:hover,
+.skin-green .dropdown-menu > li > a:hover,
+.skin-green .dropdown-menu > li > a:focus,
+.skin-green .dropdown-menu > li:hover > a,
+.skin-green .sidemenu a:hover,
+.skin-green .menutable li a:hover,
+.skin-green .menushop li a:hover,
+.skin-green ul.list-pages li a:hover,
+.skin-green ul.social li a:hover,
+.skin-green ul.social li a:hover i,
+.skin-green input:invalid,
+.skin-green input.invalid,
+.skin-green textarea:invalid,
+.skin-green textarea.invalid,
+.skin-green .formwrap.has-error input,
+.skin-green .chosen-container .chosen-results li.highlighted,
+.skin-green .slider h5 a:hover,
+.skin-green .cimg + h5 a:hover,
+.skin-green .slidebar .pagination.lined a.selected,
+.skin-green .slidebar .pagination.lined a:hover,
+.skin-green .description-table a,
+.skin-green .cost .new,
+.skin-green .catalog-bar li a:hover,
+.skin-green .catalog-bar li a.color,
+.skin-green .cart-list h5 a:hover,
+.skin-green .cart-list .cost .new,
+.skin-green .tagcloud a:hover,
+.skin-green .raty .fa-star,
+.skin-green .raty .fa-star-half-o,
+.skin-green .product-table a:hover,
+.skin-green .tooltipstered:hover,
+.skin-green ul.nav-category li a.active,
+.skin-green ul.nav-category li a:hover,
+.skin-green ul.nav-expand li a:hover,
+.skin-green .recentworks li a:after,
+.skin-green .footer a:hover,
+.skin-green .chart,
+.skin-green table td a:hover,
+.skin-green .widget ul li,
+.skin-green .widget ul li a:hover,
+.skin-green .tagcloud a:hover,
+.skin-green .nav.nav-vertical li.active a,
+.skin-green .nav.nav-horizontal li.active a,
+.skin-green .chosen-container .chosen-results li.no-results,
+.skin-green .breadcrumb li a:hover{
+    color:#00A74D;
+}
+
+.skin-green .color,
+.skin-green a.black:hover,
+.skin-green ul.no-marker li a:hover,
+.skin-green ul.no-marker li.active a,
+.skin-green a.grey:hover,
+.skin-green .a-privacy:hover,
+.skin-green .chosen-container .chosen-results li:hover{
+    color: #00A74D !important;
+}
+
+.skin-green mark,
+.skin-green .btn.btn-default,
+.skin-green .sticker.sticker-sale,
+.skin-green ul.pagination li.active a,
+.skin-green ul.pagination li.active a:hover,
+.skin-green .scrolltop:hover:before,
+.skin-green .jslider .jslider-pointer,
+.skin-green .mask,
+.skin-green .accordeon-toggle:hover,
+.skin-green .item figure:before,
+.skin-green .img figure:before,
+.skin-green .vacancy figure,
+.skin-green .recentworks li a:after,
+.skin-green .slidebar .pagination a.selected,
+.skin-green .slidebar .pagination a:hover,
+.skin-green .jslider .jslider-bg .v,
+.skin-green .counting a:hover,
+.skin-green .btn.btn-primary:hover,
+.skin-green .mejs-controls .mejs-time-rail .mejs-time-current,
+.skin-green .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.skin-green ul.nav-category li a ins,
+.skin-green .theme{
+    background-color:#00A74D;
+}
+
+.skin-green .btn.btn-primary,
+.skin-green .nav-tabs > li.active > a,
+.skin-green .nav-tabs > li.active > a:hover,
+.skin-green .formwrap.has-error,
+.skin-green .arrow:hover,
+.skin-green .mfp-arrow:hover{
+    border-color:#00A74D;
+}
+
+.skin-green .border-top-color,
+.skin-green [class*=graphBar]{
+    border-top-color:#00A74D;
+}
+
+.skin-green blockquote{
+    border-left: 1px solid #00A74D;
+}
+
+.skin-green .bar.padding [class*=graphValue] {
+    border-bottom: 2px solid #00A74D;
+}
+
+
+/*------------------------------------------------------------------
+[ AQUA ]
+color: #48CBD9;
+-------------------------------------------------------------------*/
+
+.skin-aqua a,
+.skin-aqua .btn.btn-primary,
+.skin-aqua .nav-tabs > li > a:hover,
+.skin-aqua ul.pagination li a:hover,
+.skin-aqua .header .logo a:hover,
+.skin-aqua .hcart-list .block a:hover,
+.skin-aqua .contact-info .a-email:hover,
+.skin-aqua .hbottom.dark a:hover,
+.skin-aqua .hbottom.dark .mainmenu .navbar-nav > li > a:hover,
+.skin-aqua .hcart > a:hover,
+.skin-aqua .mainmenu li.active > a,
+.skin-aqua .mainmenu li > a:hover,
+.skin-aqua .dropdown-menu > li > a:hover,
+.skin-aqua .dropdown-menu > li > a:focus,
+.skin-aqua .dropdown-menu > li:hover > a,
+.skin-aqua .sidemenu a:hover,
+.skin-aqua .menutable li a:hover,
+.skin-aqua .menushop li a:hover,
+.skin-aqua ul.list-pages li a:hover,
+.skin-aqua ul.social li a:hover,
+.skin-aqua ul.social li a:hover i,
+.skin-aqua input:invalid,
+.skin-aqua input.invalid,
+.skin-aqua textarea:invalid,
+.skin-aqua textarea.invalid,
+.skin-aqua .formwrap.has-error input,
+.skin-aqua .chosen-container .chosen-results li.highlighted,
+.skin-aqua .slider h5 a:hover,
+.skin-aqua .cimg + h5 a:hover,
+.skin-aqua .slidebar .pagination.lined a.selected,
+.skin-aqua .slidebar .pagination.lined a:hover,
+.skin-aqua .description-table a,
+.skin-aqua .cost .new,
+.skin-aqua .catalog-bar li a:hover,
+.skin-aqua .catalog-bar li a.color,
+.skin-aqua .cart-list h5 a:hover,
+.skin-aqua .cart-list .cost .new,
+.skin-aqua .tagcloud a:hover,
+.skin-aqua .raty .fa-star,
+.skin-aqua .raty .fa-star-half-o,
+.skin-aqua .product-table a:hover,
+.skin-aqua .tooltipstered:hover,
+.skin-aqua ul.nav-category li a.active,
+.skin-aqua ul.nav-category li a:hover,
+.skin-aqua ul.nav-expand li a:hover,
+.skin-aqua .recentworks li a:after,
+.skin-aqua .footer a:hover,
+.skin-aqua .chart,
+.skin-aqua table td a:hover,
+.skin-aqua .widget ul li,
+.skin-aqua .widget ul li a:hover,
+.skin-aqua .tagcloud a:hover,
+.skin-aqua .nav.nav-vertical li.active a,
+.skin-aqua .nav.nav-horizontal li.active a,
+.skin-aqua .chosen-container .chosen-results li.no-results,
+.skin-aqua .breadcrumb li a:hover{
+    color:#48CBD9;
+}
+
+.skin-aqua .color,
+.skin-aqua a.black:hover,
+.skin-aqua ul.no-marker li a:hover,
+.skin-aqua ul.no-marker li.active a,
+.skin-aqua a.grey:hover,
+.skin-aqua .a-privacy:hover,
+.skin-aqua .chosen-container .chosen-results li:hover{
+    color: #48CBD9 !important;
+}
+
+.skin-aqua mark,
+.skin-aqua .btn.btn-default,
+.skin-aqua .sticker.sticker-sale,
+.skin-aqua ul.pagination li.active a,
+.skin-aqua ul.pagination li.active a:hover,
+.skin-aqua .scrolltop:hover:before,
+.skin-aqua .jslider .jslider-pointer,
+.skin-aqua .mask,
+.skin-aqua .accordeon-toggle:hover,
+.skin-aqua .item figure:before,
+.skin-aqua .img figure:before,
+.skin-aqua .vacancy figure,
+.skin-aqua .recentworks li a:after,
+.skin-aqua .slidebar .pagination a.selected,
+.skin-aqua .slidebar .pagination a:hover,
+.skin-aqua .jslider .jslider-bg .v,
+.skin-aqua .counting a:hover,
+.skin-aqua .btn.btn-primary:hover,
+.skin-aqua .mejs-controls .mejs-time-rail .mejs-time-current,
+.skin-aqua .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.skin-aqua ul.nav-category li a ins,
+.skin-aqua .theme{
+    background-color:#48CBD9;
+}
+
+.skin-aqua .btn.btn-primary,
+.skin-aqua .nav-tabs > li.active > a,
+.skin-aqua .nav-tabs > li.active > a:hover,
+.skin-aqua .formwrap.has-error,
+.skin-aqua .arrow:hover,
+.skin-aqua .mfp-arrow:hover{
+    border-color:#48CBD9;
+}
+
+.skin-aqua .border-top-color,
+.skin-aqua [class*=graphBar]{
+    border-top-color:#48CBD9;
+}
+
+.skin-aqua blockquote{
+    border-left: 1px solid #48CBD9;
+}
+
+.skin-aqua .bar.padding [class*=graphValue] {
+    border-bottom: 2px solid #48CBD9;
+}
+
+
+/*------------------------------------------------------------------
+[ BLUE ]
+color: #39AEDA;
+-------------------------------------------------------------------*/
+
+.skin-blue a,
+.skin-blue .btn.btn-primary,
+.skin-blue .nav-tabs > li > a:hover,
+.skin-blue ul.pagination li a:hover,
+.skin-blue .header .logo a:hover,
+.skin-blue .hcart-list .block a:hover,
+.skin-blue .contact-info .a-email:hover,
+.skin-blue .hbottom.dark a:hover,
+.skin-blue .hbottom.dark .mainmenu .navbar-nav > li > a:hover,
+.skin-blue .hcart > a:hover,
+.skin-blue .mainmenu li.active > a,
+.skin-blue .mainmenu li > a:hover,
+.skin-blue .dropdown-menu > li > a:hover,
+.skin-blue .dropdown-menu > li > a:focus,
+.skin-blue .dropdown-menu > li:hover > a,
+.skin-blue .sidemenu a:hover,
+.skin-blue .menutable li a:hover,
+.skin-blue .menushop li a:hover,
+.skin-blue ul.list-pages li a:hover,
+.skin-blue ul.social li a:hover,
+.skin-blue ul.social li a:hover i,
+.skin-blue input:invalid,
+.skin-blue input.invalid,
+.skin-blue textarea:invalid,
+.skin-blue textarea.invalid,
+.skin-blue .formwrap.has-error input,
+.skin-blue .chosen-container .chosen-results li.highlighted,
+.skin-blue .slider h5 a:hover,
+.skin-blue .cimg + h5 a:hover,
+.skin-blue .slidebar .pagination.lined a.selected,
+.skin-blue .slidebar .pagination.lined a:hover,
+.skin-blue .description-table a,
+.skin-blue .cost .new,
+.skin-blue .catalog-bar li a:hover,
+.skin-blue .catalog-bar li a.color,
+.skin-blue .cart-list h5 a:hover,
+.skin-blue .cart-list .cost .new,
+.skin-blue .tagcloud a:hover,
+.skin-blue .raty .fa-star,
+.skin-blue .raty .fa-star-half-o,
+.skin-blue .product-table a:hover,
+.skin-blue .tooltipstered:hover,
+.skin-blue ul.nav-category li a.active,
+.skin-blue ul.nav-category li a:hover,
+.skin-blue ul.nav-expand li a:hover,
+.skin-blue .recentworks li a:after,
+.skin-blue .footer a:hover,
+.skin-blue .chart,
+.skin-blue table td a:hover,
+.skin-blue .widget ul li,
+.skin-blue .widget ul li a:hover,
+.skin-blue .tagcloud a:hover,
+.skin-blue .nav.nav-vertical li.active a,
+.skin-blue .nav.nav-horizontal li.active a,
+.skin-blue .chosen-container .chosen-results li.no-results,
+.skin-blue .breadcrumb li a:hover{
+    color:#39AEDA;
+}
+
+.skin-blue .color,
+.skin-blue a.black:hover,
+.skin-blue ul.no-marker li a:hover,
+.skin-blue ul.no-marker li.active a,
+.skin-blue a.grey:hover,
+.skin-blue .a-privacy:hover,
+.skin-blue .chosen-container .chosen-results li:hover{
+    color: #39AEDA !important;
+}
+
+.skin-blue mark,
+.skin-blue .btn.btn-default,
+.skin-blue .sticker.sticker-sale,
+.skin-blue ul.pagination li.active a,
+.skin-blue ul.pagination li.active a:hover,
+.skin-blue .scrolltop:hover:before,
+.skin-blue .jslider .jslider-pointer,
+.skin-blue .mask,
+.skin-blue .accordeon-toggle:hover,
+.skin-blue .item figure:before,
+.skin-blue .img figure:before,
+.skin-blue .vacancy figure,
+.skin-blue .recentworks li a:after,
+.skin-blue .slidebar .pagination a.selected,
+.skin-blue .slidebar .pagination a:hover,
+.skin-blue .jslider .jslider-bg .v,
+.skin-blue .counting a:hover,
+.skin-blue .btn.btn-primary:hover,
+.skin-blue .mejs-controls .mejs-time-rail .mejs-time-current,
+.skin-blue .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.skin-blue ul.nav-category li a ins,
+.skin-blue .theme{
+    background-color:#39AEDA;
+}
+
+.skin-blue .btn.btn-primary,
+.skin-blue .nav-tabs > li.active > a,
+.skin-blue .nav-tabs > li.active > a:hover,
+.skin-blue .formwrap.has-error,
+.skin-blue .arrow:hover,
+.skin-blue .mfp-arrow:hover{
+    border-color:#39AEDA;
+}
+
+.skin-blue .border-top-color,
+.skin-blue [class*=graphBar]{
+    border-top-color:#39AEDA;
+}
+
+.skin-blue blockquote{
+    border-left: 1px solid #39AEDA;
+}
+
+.skin-blue .bar.padding [class*=graphValue] {
+    border-bottom: 2px solid #39AEDA;
+}
+
+
+/*------------------------------------------------------------------
+[ ORANGE ]
+color: #FF9633;
+-------------------------------------------------------------------*/
+
+.skin-orange a,
+.skin-orange .btn.btn-primary,
+.skin-orange .nav-tabs > li > a:hover,
+.skin-orange ul.pagination li a:hover,
+.skin-orange .header .logo a:hover,
+.skin-orange .hcart-list .block a:hover,
+.skin-orange .contact-info .a-email:hover,
+.skin-orange .hbottom.dark a:hover,
+.skin-orange .hbottom.dark .mainmenu .navbar-nav > li > a:hover,
+.skin-orange .hcart > a:hover,
+.skin-orange .mainmenu li.active > a,
+.skin-orange .mainmenu li > a:hover,
+.skin-orange .dropdown-menu > li > a:hover,
+.skin-orange .dropdown-menu > li > a:focus,
+.skin-orange .dropdown-menu > li:hover > a,
+.skin-orange .sidemenu a:hover,
+.skin-orange .menutable li a:hover,
+.skin-orange .menushop li a:hover,
+.skin-orange ul.list-pages li a:hover,
+.skin-orange ul.social li a:hover,
+.skin-orange ul.social li a:hover i,
+.skin-orange input:invalid,
+.skin-orange input.invalid,
+.skin-orange textarea:invalid,
+.skin-orange textarea.invalid,
+.skin-orange .formwrap.has-error input,
+.skin-orange .chosen-container .chosen-results li.highlighted,
+.skin-orange .slider h5 a:hover,
+.skin-orange .cimg + h5 a:hover,
+.skin-orange .slidebar .pagination.lined a.selected,
+.skin-orange .slidebar .pagination.lined a:hover,
+.skin-orange .description-table a,
+.skin-orange .cost .new,
+.skin-orange .catalog-bar li a:hover,
+.skin-orange .catalog-bar li a.color,
+.skin-orange .cart-list h5 a:hover,
+.skin-orange .cart-list .cost .new,
+.skin-orange .tagcloud a:hover,
+.skin-orange .raty .fa-star,
+.skin-orange .raty .fa-star-half-o,
+.skin-orange .product-table a:hover,
+.skin-orange .tooltipstered:hover,
+.skin-orange ul.nav-category li a.active,
+.skin-orange ul.nav-category li a:hover,
+.skin-orange ul.nav-expand li a:hover,
+.skin-orange .recentworks li a:after,
+.skin-orange .footer a:hover,
+.skin-orange .chart,
+.skin-orange table td a:hover,
+.skin-orange .widget ul li,
+.skin-orange .widget ul li a:hover,
+.skin-orange .tagcloud a:hover,
+.skin-orange .nav.nav-vertical li.active a,
+.skin-orange .nav.nav-horizontal li.active a,
+.skin-orange .chosen-container .chosen-results li.no-results,
+.skin-orange .breadcrumb li a:hover{
+    color:#FF9633;
+}
+
+.skin-orange .color,
+.skin-orange a.black:hover,
+.skin-orange ul.no-marker li a:hover,
+.skin-orange ul.no-marker li.active a,
+.skin-orange a.grey:hover,
+.skin-orange .a-privacy:hover,
+.skin-orange .chosen-container .chosen-results li:hover{
+    color: #FF9633 !important;
+}
+
+.skin-orange mark,
+.skin-orange .btn.btn-default,
+.skin-orange .sticker.sticker-sale,
+.skin-orange ul.pagination li.active a,
+.skin-orange ul.pagination li.active a:hover,
+.skin-orange .scrolltop:hover:before,
+.skin-orange .jslider .jslider-pointer,
+.skin-orange .mask,
+.skin-orange .accordeon-toggle:hover,
+.skin-orange .item figure:before,
+.skin-orange .img figure:before,
+.skin-orange .vacancy figure,
+.skin-orange .recentworks li a:after,
+.skin-orange .slidebar .pagination a.selected,
+.skin-orange .slidebar .pagination a:hover,
+.skin-orange .jslider .jslider-bg .v,
+.skin-orange .counting a:hover,
+.skin-orange .btn.btn-primary:hover,
+.skin-orange .mejs-controls .mejs-time-rail .mejs-time-current,
+.skin-orange .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.skin-orange ul.nav-category li a ins,
+.skin-orange .theme{
+    background-color:#FF9633;
+}
+
+.skin-orange .btn.btn-primary,
+.skin-orange .nav-tabs > li.active > a,
+.skin-orange .nav-tabs > li.active > a:hover,
+.skin-orange .formwrap.has-error,
+.skin-orange .arrow:hover,
+.skin-orange .mfp-arrow:hover{
+    border-color:#FF9633;
+}
+
+.skin-orange .border-top-color,
+.skin-orange [class*=graphBar]{
+    border-top-color:#FF9633;
+}
+
+.skin-orange blockquote{
+    border-left: 1px solid #FF9633;
+}
+
+.skin-orange .bar.padding [class*=graphValue] {
+    border-bottom: 2px solid #FF9633;
+}
+
+
+/*------------------------------------------------------------------
+[ GRAY ]
+color: #8E8E8E;
+-------------------------------------------------------------------*/
+
+.skin-gray a,
+.skin-gray .btn.btn-primary,
+.skin-gray .nav-tabs > li > a:hover,
+.skin-gray ul.pagination li a:hover,
+.skin-gray .header .logo a:hover,
+.skin-gray .hcart-list .block a:hover,
+.skin-gray .contact-info .a-email:hover,
+.skin-gray .hbottom.dark a:hover,
+.skin-gray .hbottom.dark .mainmenu .navbar-nav > li > a:hover,
+.skin-gray .hcart > a:hover,
+.skin-gray .mainmenu li.active > a,
+.skin-gray .mainmenu li > a:hover,
+.skin-gray .dropdown-menu > li > a:hover,
+.skin-gray .dropdown-menu > li > a:focus,
+.skin-gray .dropdown-menu > li:hover > a,
+.skin-gray .sidemenu a:hover,
+.skin-gray .menutable li a:hover,
+.skin-gray .menushop li a:hover,
+.skin-gray ul.list-pages li a:hover,
+.skin-gray ul.social li a:hover,
+.skin-gray ul.social li a:hover i,
+.skin-gray input:invalid,
+.skin-gray input.invalid,
+.skin-gray textarea:invalid,
+.skin-gray textarea.invalid,
+.skin-gray .formwrap.has-error input,
+.skin-gray .chosen-container .chosen-results li.highlighted,
+.skin-gray .slider h5 a:hover,
+.skin-gray .cimg + h5 a:hover,
+.skin-gray .slidebar .pagination.lined a.selected,
+.skin-gray .slidebar .pagination.lined a:hover,
+.skin-gray .description-table a,
+.skin-gray .cost .new,
+.skin-gray .catalog-bar li a:hover,
+.skin-gray .catalog-bar li a.color,
+.skin-gray .cart-list h5 a:hover,
+.skin-gray .cart-list .cost .new,
+.skin-gray .tagcloud a:hover,
+.skin-gray .raty .fa-star,
+.skin-gray .raty .fa-star-half-o,
+.skin-gray .product-table a:hover,
+.skin-gray .tooltipstered:hover,
+.skin-gray ul.nav-category li a.active,
+.skin-gray ul.nav-category li a:hover,
+.skin-gray ul.nav-expand li a:hover,
+.skin-gray .recentworks li a:after,
+.skin-gray .footer a:hover,
+.skin-gray .chart,
+.skin-gray table td a:hover,
+.skin-gray .widget ul li,
+.skin-gray .widget ul li a:hover,
+.skin-gray .tagcloud a:hover,
+.skin-gray .nav.nav-vertical li.active a,
+.skin-gray .nav.nav-horizontal li.active a,
+.skin-gray .chosen-container .chosen-results li.no-results,
+.skin-gray .breadcrumb li a:hover{
+    color:#8E8E8E;
+}
+
+.skin-gray .color,
+.skin-gray a.black:hover,
+.skin-gray ul.no-marker li a:hover,
+.skin-gray ul.no-marker li.active a,
+.skin-gray a.grey:hover,
+.skin-gray .a-privacy:hover,
+.skin-gray .chosen-container .chosen-results li:hover{
+    color: #8E8E8E !important;
+}
+
+.skin-gray mark,
+.skin-gray .btn.btn-default,
+.skin-gray .sticker.sticker-sale,
+.skin-gray ul.pagination li.active a,
+.skin-gray ul.pagination li.active a:hover,
+.skin-gray .scrolltop:hover:before,
+.skin-gray .jslider .jslider-pointer,
+.skin-gray .mask,
+.skin-gray .accordeon-toggle:hover,
+.skin-gray .item figure:before,
+.skin-gray .img figure:before,
+.skin-gray .vacancy figure,
+.skin-gray .recentworks li a:after,
+.skin-gray .slidebar .pagination a.selected,
+.skin-gray .slidebar .pagination a:hover,
+.skin-gray .jslider .jslider-bg .v,
+.skin-gray .counting a:hover,
+.skin-gray .btn.btn-primary:hover,
+.skin-gray .mejs-controls .mejs-time-rail .mejs-time-current,
+.skin-gray .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.skin-gray ul.nav-category li a ins,
+.skin-gray .theme{
+    background-color:#8E8E8E;
+}
+
+.skin-gray .btn.btn-primary,
+.skin-gray .nav-tabs > li.active > a,
+.skin-gray .nav-tabs > li.active > a:hover,
+.skin-gray .formwrap.has-error,
+.skin-gray .arrow:hover,
+.skin-gray .mfp-arrow:hover{
+    border-color:#8E8E8E;
+}
+
+.skin-gray .border-top-color,
+.skin-gray [class*=graphBar]{
+    border-top-color:#8E8E8E;
+}
+
+.skin-gray blockquote{
+    border-left: 1px solid #8E8E8E;
+}
+
+.skin-gray .bar.padding [class*=graphValue] {
+    border-bottom: 2px solid #8E8E8E;
+}
+
+
+/*------------------------------------------------------------------
+[ BROWN ]
+color: #CA6B1A;
+-------------------------------------------------------------------*/
+
+.skin-brown a,
+.skin-brown .btn.btn-primary,
+.skin-brown .nav-tabs > li > a:hover,
+.skin-brown ul.pagination li a:hover,
+.skin-brown .header .logo a:hover,
+.skin-brown .hcart-list .block a:hover,
+.skin-brown .contact-info .a-email:hover,
+.skin-brown .hbottom.dark a:hover,
+.skin-brown .hbottom.dark .mainmenu .navbar-nav > li > a:hover,
+.skin-brown .hcart > a:hover,
+.skin-brown .mainmenu li.active > a,
+.skin-brown .mainmenu li > a:hover,
+.skin-brown .dropdown-menu > li > a:hover,
+.skin-brown .dropdown-menu > li > a:focus,
+.skin-brown .dropdown-menu > li:hover > a,
+.skin-brown .sidemenu a:hover,
+.skin-brown .menutable li a:hover,
+.skin-brown .menushop li a:hover,
+.skin-brown ul.list-pages li a:hover,
+.skin-brown ul.social li a:hover,
+.skin-brown ul.social li a:hover i,
+.skin-brown input:invalid,
+.skin-brown input.invalid,
+.skin-brown textarea:invalid,
+.skin-brown textarea.invalid,
+.skin-brown .formwrap.has-error input,
+.skin-brown .chosen-container .chosen-results li.highlighted,
+.skin-brown .slider h5 a:hover,
+.skin-brown .cimg + h5 a:hover,
+.skin-brown .slidebar .pagination.lined a.selected,
+.skin-brown .slidebar .pagination.lined a:hover,
+.skin-brown .description-table a,
+.skin-brown .cost .new,
+.skin-brown .catalog-bar li a:hover,
+.skin-brown .catalog-bar li a.color,
+.skin-brown .cart-list h5 a:hover,
+.skin-brown .cart-list .cost .new,
+.skin-brown .tagcloud a:hover,
+.skin-brown .raty .fa-star,
+.skin-brown .raty .fa-star-half-o,
+.skin-brown .product-table a:hover,
+.skin-brown .tooltipstered:hover,
+.skin-brown ul.nav-category li a.active,
+.skin-brown ul.nav-category li a:hover,
+.skin-brown ul.nav-expand li a:hover,
+.skin-brown .recentworks li a:after,
+.skin-brown .footer a:hover,
+.skin-brown .chart,
+.skin-brown table td a:hover,
+.skin-brown .widget ul li,
+.skin-brown .widget ul li a:hover,
+.skin-brown .tagcloud a:hover,
+.skin-brown .nav.nav-vertical li.active a,
+.skin-brown .nav.nav-horizontal li.active a,
+.skin-brown .chosen-container .chosen-results li.no-results,
+.skin-brown .breadcrumb li a:hover{
+    color:#CA6B1A;
+}
+
+.skin-brown .color,
+.skin-brown a.black:hover,
+.skin-brown ul.no-marker li a:hover,
+.skin-brown ul.no-marker li.active a,
+.skin-brown a.grey:hover,
+.skin-brown .a-privacy:hover,
+.skin-brown .chosen-container .chosen-results li:hover{
+    color: #CA6B1A !important;
+}
+
+.skin-brown mark,
+.skin-brown .btn.btn-default,
+.skin-brown .sticker.sticker-sale,
+.skin-brown ul.pagination li.active a,
+.skin-brown ul.pagination li.active a:hover,
+.skin-brown .scrolltop:hover:before,
+.skin-brown .jslider .jslider-pointer,
+.skin-brown .mask,
+.skin-brown .accordeon-toggle:hover,
+.skin-brown .item figure:before,
+.skin-brown .img figure:before,
+.skin-brown .vacancy figure,
+.skin-brown .recentworks li a:after,
+.skin-brown .slidebar .pagination a.selected,
+.skin-brown .slidebar .pagination a:hover,
+.skin-brown .jslider .jslider-bg .v,
+.skin-brown .counting a:hover,
+.skin-brown .btn.btn-primary:hover,
+.skin-brown .mejs-controls .mejs-time-rail .mejs-time-current,
+.skin-brown .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.skin-brown ul.nav-category li a ins,
+.skin-brown .theme{
+    background-color:#CA6B1A;
+}
+
+.skin-brown .btn.btn-primary,
+.skin-brown .nav-tabs > li.active > a,
+.skin-brown .nav-tabs > li.active > a:hover,
+.skin-brown .formwrap.has-error,
+.skin-brown .arrow:hover,
+.skin-brown .mfp-arrow:hover{
+    border-color:#CA6B1A;
+}
+
+.skin-brown .border-top-color,
+.skin-brown [class*=graphBar]{
+    border-top-color:#CA6B1A;
+}
+
+.skin-brown blockquote{
+    border-left: 1px solid #CA6B1A;
+}
+
+.skin-brown .bar.padding [class*=graphValue] {
+    border-bottom: 2px solid #CA6B1A;
+}
+
+
+/*------------------------------------------------------------------
+[ SAND ]
+color: #998674;
+-------------------------------------------------------------------*/
+
+.skin-sand a,
+.skin-sand .btn.btn-primary,
+.skin-sand .nav-tabs > li > a:hover,
+.skin-sand ul.pagination li a:hover,
+.skin-sand .header .logo a:hover,
+.skin-sand .hcart-list .block a:hover,
+.skin-sand .contact-info .a-email:hover,
+.skin-sand .hbottom.dark a:hover,
+.skin-sand .hbottom.dark .mainmenu .navbar-nav > li > a:hover,
+.skin-sand .hcart > a:hover,
+.skin-sand .mainmenu li.active > a,
+.skin-sand .mainmenu li > a:hover,
+.skin-sand .dropdown-menu > li > a:hover,
+.skin-sand .dropdown-menu > li > a:focus,
+.skin-sand .dropdown-menu > li:hover > a,
+.skin-sand .sidemenu a:hover,
+.skin-sand .menutable li a:hover,
+.skin-sand .menushop li a:hover,
+.skin-sand ul.list-pages li a:hover,
+.skin-sand ul.social li a:hover,
+.skin-sand ul.social li a:hover i,
+.skin-sand input:invalid,
+.skin-sand input.invalid,
+.skin-sand textarea:invalid,
+.skin-sand textarea.invalid,
+.skin-sand .formwrap.has-error input,
+.skin-sand .chosen-container .chosen-results li.highlighted,
+.skin-sand .slider h5 a:hover,
+.skin-sand .cimg + h5 a:hover,
+.skin-sand .slidebar .pagination.lined a.selected,
+.skin-sand .slidebar .pagination.lined a:hover,
+.skin-sand .description-table a,
+.skin-sand .cost .new,
+.skin-sand .catalog-bar li a:hover,
+.skin-sand .catalog-bar li a.color,
+.skin-sand .cart-list h5 a:hover,
+.skin-sand .cart-list .cost .new,
+.skin-sand .tagcloud a:hover,
+.skin-sand .raty .fa-star,
+.skin-sand .raty .fa-star-half-o,
+.skin-sand .product-table a:hover,
+.skin-sand .tooltipstered:hover,
+.skin-sand ul.nav-category li a.active,
+.skin-sand ul.nav-category li a:hover,
+.skin-sand ul.nav-expand li a:hover,
+.skin-sand .recentworks li a:after,
+.skin-sand .footer a:hover,
+.skin-sand .chart,
+.skin-sand table td a:hover,
+.skin-sand .widget ul li,
+.skin-sand .widget ul li a:hover,
+.skin-sand .tagcloud a:hover,
+.skin-sand .nav.nav-vertical li.active a,
+.skin-sand .nav.nav-horizontal li.active a,
+.skin-sand .chosen-container .chosen-results li.no-results,
+.skin-sand .breadcrumb li a:hover{
+    color:#998674;
+}
+
+.skin-sand .color,
+.skin-sand a.black:hover,
+.skin-sand ul.no-marker li a:hover,
+.skin-sand ul.no-marker li.active a,
+.skin-sand a.grey:hover,
+.skin-sand .a-privacy:hover,
+.skin-sand .chosen-container .chosen-results li:hover{
+    color: #998674 !important;
+}
+
+.skin-sand mark,
+.skin-sand .btn.btn-default,
+.skin-sand .sticker.sticker-sale,
+.skin-sand ul.pagination li.active a,
+.skin-sand ul.pagination li.active a:hover,
+.skin-sand .scrolltop:hover:before,
+.skin-sand .jslider .jslider-pointer,
+.skin-sand .mask,
+.skin-sand .accordeon-toggle:hover,
+.skin-sand .item figure:before,
+.skin-sand .img figure:before,
+.skin-sand .vacancy figure,
+.skin-sand .recentworks li a:after,
+.skin-sand .slidebar .pagination a.selected,
+.skin-sand .slidebar .pagination a:hover,
+.skin-sand .jslider .jslider-bg .v,
+.skin-sand .counting a:hover,
+.skin-sand .btn.btn-primary:hover,
+.skin-sand .mejs-controls .mejs-time-rail .mejs-time-current,
+.skin-sand .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+.skin-sand ul.nav-category li a ins,
+.skin-sand .theme{
+    background-color:#998674;
+}
+
+.skin-sand .btn.btn-primary,
+.skin-sand .nav-tabs > li.active > a,
+.skin-sand .nav-tabs > li.active > a:hover,
+.skin-sand .formwrap.has-error,
+.skin-sand .arrow:hover,
+.skin-sand .mfp-arrow:hover{
+    border-color:#998674;
+}
+
+.skin-sand .border-top-color,
+.skin-sand [class*=graphBar]{
+    border-top-color:#998674;
+}
+
+.skin-sand blockquote{
+    border-left: 1px solid #998674;
+}
+
+.skin-sand .bar.padding [class*=graphValue] {
+    border-bottom: 2px solid #998674;
+}

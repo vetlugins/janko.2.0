@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html id="splashpage">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>CBGram</title>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- CBGram - Express Site CB Grammatica - v.1.0 -->
+</head>
+<body>
+
+<!-- WRAPPER -->
+<div class="wrapper">
+    <header>
+        <a href="index.html" class="spl-logo">—CBGram—</a>
+        <span class="spl-slogan">Express Site CB Grammatica</span>
+    </header>
+    <article>
+        <a href="start_business.html" class="spl-item">
+            <img src="images/imgs/splash-business.jpg" alt="CBGram Business">
+            <span class="spl-mask">Business</span>
+        </a>
+        <a href="start_ecommerce.html" class="spl-item">
+            <img src="images/imgs/splash-ecommerce.jpg" alt="CBGram eCommerce">
+            <span class="spl-mask">eCommerce</span>
+        </a>
+        <a href="start_agency.html" class="spl-item">
+            <img src="images/imgs/splash-agency.jpg" alt="CBGram Agency">
+            <span class="spl-mask">Agency</span>
+        </a>
+        <a href="start_portfolio.html" class="spl-item">
+            <img src="images/imgs/splash-portfolio.jpg" alt="CBGram Portfolio">
+            <span class="spl-mask">Portfolio</span>
+        </a>
+    </article>
+</div>
+<!-- /.wrapper -->
+
+<!-- Panorama -->
+<div id="panorama" class=""></div>
+
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/jquery.plugins.js"></script>
+<script>
+var Pano = (function($){
+    var panorama = $('#panorama'),
+        win = $(window),
+        wid = win.width(),
+        hei = win.height(),
+        direct = 'left',
+        speed = 60;
+
+    return {
+        init: function(){
+            panorama.css({
+                'width': wid,
+                'height': hei
+            }).panoScroll({
+                direction: direct,
+                scrollSpeed: speed
+            });
+        }
+    }
+})(jQuery);
+
+Pano.init();
+</script>
+</body>
+</html>

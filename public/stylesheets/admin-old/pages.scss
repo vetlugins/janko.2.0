@@ -1,0 +1,60 @@
+@import('variables');
+
+.confirm-changes {
+	margin-top: 1em;
+	text-align: center;
+	& > p { margin-bottom: 0.5em; }
+	display: none;
+}
+
+
+
+.admin-pages-list {
+	a {
+		color: $brand-primary;
+		text-decoration: none;
+		&:hover { color: $brand-info; }
+	}
+
+	.page-links {
+		display: none;
+		padding-right: 20px;
+		.page-link { padding-left: 7px; }
+	}
+
+	.jqtree-element:hover > .jqtree-title > .page-links { display: block; }
+
+}
+
+// .admin-pages-list {
+//   ul { list-style: none; }
+//   li > ul { margin: 0 -15px;}
+//   li > .row {
+//     background-color: $gray-lighter;
+//     &:hover {
+//       background-color: $gray-light;
+//     }
+//     margin-bottom: 3px;
+//     border-radius: 5px;
+//   }
+//   li {
+//     line-height: 3em;
+//     padding: 0 1em;
+//     a, a:hover {
+//       color: $brand-primary;
+//       display: block;
+//       text-decoration: none;
+//     }
+
+//     .admin-pages-list-controls {
+//       text-align: right;
+//       a { display: inline; }
+//       a:hover { color: $brand-info; }
+//     }
+
+//     .pages-show-children { float: left; &:hover { color: $brand-info; } }
+
+// .pages-link { margin-left: 20px; }
+//   }
+// }
+

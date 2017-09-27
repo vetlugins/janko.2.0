@@ -1,0 +1,30 @@
+@import 'variables';
+.admin-list {
+  &.no-padding-left { -webkit-padding-start: 0px; }
+  list-style: none;
+  li > ul { margin: 0 -15px;}
+  li > .row {
+    background-color: $gray-lighter;
+    &:hover {
+      background-color: $gray-light;
+    }
+    margin-bottom: 3px;
+    border-radius: 5px;
+  }
+  li {
+    line-height: 3em;
+    padding: 0 1em;
+    a, a:hover {
+      color: $brand-primary;
+      display: block;
+      text-decoration: none;
+    }
+
+    .admin-list-controls {
+      text-align: right;
+      a { display: inline; }
+      a:hover { color: $brand-info; }
+    }
+
+  }
+}

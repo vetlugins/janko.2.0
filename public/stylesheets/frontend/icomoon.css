@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../fonts/icomoon.eot?vqt9je');
+  src:  url('../../fonts/icomoon.eot?vqt9je#iefix') format('embedded-opentype'),
+        url('../../fonts/icomoon.ttf?vqt9je') format('truetype'),
+        url('../../fonts/icomoon.woff?vqt9je') format('woff'),
+        url('../../fonts/icomoon.svg?vqt9je#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icomoon-"], [class*=" icomoon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon', sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-social-n-brands-2343:before {
+  content: "\e900";
+}
+.icomoon-finance-n-e-commerce-1202:before {
+  content: "\e901";
+}
+.icomoon-business-0407:before {
+  content: "\e902";
+}
+

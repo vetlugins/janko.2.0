@@ -1,0 +1,26 @@
+body {
+  padding-top: 60px;
+}
+
+.header {
+  background-image: url(/assets/admin/header-bg.jpg);
+  background-size: cover;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  .page-header {
+    color: white;
+  }
+}
+
+.tab-content {
+  clear: both;
+}
+
+.breadcrumbs {
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  z-index: 5;
+}
+
+.alert a.btn { text-decoration: none; }
