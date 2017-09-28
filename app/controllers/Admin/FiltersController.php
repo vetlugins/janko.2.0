@@ -34,7 +34,7 @@ class FiltersController extends BaseController {
 			$this->viewName(__FUNCTION__),
 			compact('filter','items')+
 			[
-				'params' => $this->params
+				'params' => $this->getParams(__FUNCTION__)
 			]
 		);
 	}
@@ -62,35 +62,7 @@ class FiltersController extends BaseController {
 	public function getParams($method = null, $item = null)
 	{
 		$params = $this->params;
-		/*if (in_array($method, ['create', 'edit', 'index'])) {
-			$categories = Category::query()
-				->sFirstLevel()
-				->sSorted()
-				->with(['subCategories' => function($subCategory) {
-					$subCategory->sSorted();
-				}])
-				->get()
-			;
-			$categoriesList = [];
-			$optionsAttributes = [];
-			foreach ($categories as $category) {
-				$categoriesList[$category->id] = $category->title;
-				$optionsAttributes[$category->id] = ['data-level' => 1];
-				foreach ($category->subCategories as $subCategory) {
-					$categoriesList[$subCategory->id] = $subCategory->title;
-					$optionsAttributes[$subCategory->id] = ['data-level' => 2];
-				}
-			}
-			$params['categoriesList'] = $categoriesList;
-			$params['optionsAttributes'] = $optionsAttributes;
-		}
-		if (in_array($method, ['index', 'edit', 'create'])) {
-			$params['vendorsList'] = ProductVendor::query()->sSorted()->pluck('title', 'id')->toArray();
-			$params['materialsList'] = ProductMaterial::query()->sSorted()->pluck('title', 'id')->toArray();
-		}
-		if (in_array($method, ['imported'])) {
-			$params['storesList'] = Store::query()->pluck('title', 'id')->toArray();
-		}*/
+
 		return $params;
 	}
 

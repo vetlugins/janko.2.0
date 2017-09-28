@@ -21,7 +21,7 @@
             <a href="#" class="btn btn-link btn-xs collapse-box"><i class="fa fa-chevron-up"></i></a>
         </div>
     </div>
-    <div class="box-body" style="padding: 20px 45px">
+    <div class="box-body">
 
         <div class="form-group checkbox check-success margin-bottom-md">
             <span style="margin-right: 20px">{{ HTML::form_checkbox('visible', '', '<span></span>'.trans ( 'admin_fields.visible' ) , 1, $item->visible, $errors ) }}</span>

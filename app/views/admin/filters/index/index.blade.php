@@ -20,12 +20,12 @@
 
     <!-- Main row -->
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-12">
             <div class="box">
                 <div class="box-title">
                     Фильтр "{{ $filter->title }}"
                 </div>
-                <div class="box-body no-padding">
+                <div class="box-body">
                    @include('admin.'.$params['route'].'._includes._'.$filter->type)
                 </div>
             </div>
