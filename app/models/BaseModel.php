@@ -232,6 +232,7 @@ class BaseModel extends Eloquent{
 	 */
 	public function jd() {
 		$arguments = func_get_args();
+
 		if (!array_key_exists(0, $arguments)) {
 			return false;
 		}

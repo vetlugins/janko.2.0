@@ -13,6 +13,7 @@ use Cache;
 use URL;
 use Language;
 use Config;
+use Cover;
 
 class WidgetsController extends BaseController {
 
@@ -119,6 +120,23 @@ class WidgetsController extends BaseController {
         $item->jd('widget',Input::get('jdata.widget'));
 
         $item->visible = intval ( Input::get('visible') );
+
+        $blocks = Input::file('jdata.widget.fields.blocks');
+        foreach($blocks as $i => $blockData) {
+            $file = array_get($blockData, 'slide');
+            if ($file) {
+                $filename = $file->getClientOriginalName();
+                $filename = $this->trans_filename($filename);
+                aprint($filename);die;
+                $item->jd("widget.fields.blocks.{$i}.slide", $filename);
+                $file->move(public_path('system').'/Widget/slider/', $filename);
+            }
+        }
+
+        aprint(json_encode($item->jdata));
+        aprint($blocks);die;
+
+
     }
 
     public function getItem($id)
@@ -126,4 +144,15 @@ class WidgetsController extends BaseController {
         $model = $this->params['model'];
         return $model::findOrFail($id);
     }
+
+    public function saveAttachments($item)
+    {
+        $item->saveCover( $this->getCoverParams() );
+    }
+
+    protected function getCoverParams() {
+        return Input::only('cover')['cover'] ?: [];
+    }
+
+
 }

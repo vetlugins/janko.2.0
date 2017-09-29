@@ -22,7 +22,11 @@
 					</div>
 					<div class="box-body">
 
-
+						<div class="form-group">
+							<div class="col-sm-12">
+								<textarea name="jdata[widget][fields][blocks][text]" class="form-control" id="text"></textarea>
+							</div>
+						</div>
 
 						<div class="form-group">
 							<div class="col-sm-12">
@@ -45,8 +49,7 @@
 
 @section('bottom')
 
-	<script src="/js/admin/plugins/bootstrapValidator/bootstrapValidator.min.js" type="text/javascript"></script>
-	<link rel="stylesheet" href="/stylesheets/admin/bootstrapValidator/bootstrapValidator.min.css" />
+	<script src="/help_utilities/ckeditor/ckeditor.js"></script>
 
 	<script type="text/javascript">
 		$(document).ready(function(){
@@ -57,19 +60,9 @@
 				radioClass: 'iradio_square-green'
 			});
 
-			/*$('#form-std').bootstrapValidator({
-				message: 'Это значение недействительно',
-				fields: {
-					title: {
-						message: 'Введите название страницы',
-						validators: {
-							notEmpty: {
-								message: 'Введите название страницы'
-							}
-						}
-					}
-				}
-			});*/
+			CKEDITOR.replace('text', {
+				height: '400px'
+			});
 		});
 	</script>
 @endsection

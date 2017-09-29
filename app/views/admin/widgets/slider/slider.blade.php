@@ -23,34 +23,34 @@
 					<div class="box-body">
 
 						@for($i = 0; $i < 4; $i++)
-						<div class="form-group ">
+							<div class="form-group ">
 
-							<div class="col-lg-2">
-								{{ Form::file('jdata[widget][fields][blocks]['.$i.'][slide]', ['class' => 'btn btn-info file-inputs','title' => 'Выберите файл'] ) }}
-							</div>
+								<div class="col-lg-3">
+									{{ Form::file('jdata[widget][fields][blocks]['.$i.'][slide]', ['class' => 'btn btn-info file-inputs','title' => 'Выберите файл'] ) }}
+								</div>
 
-							<div class="col-lg-2">
-								<input type="text" class="form-control" name="jdata[widget][fields][blocks][{{$i}}][title]" placeholder="Название" value="{{ $item->jd("widget.fields.blocks.{$i}.title") }}">
-							</div>
+								<div class="col-lg-2">
+									<input type="text" class="form-control" name="jdata[widget][fields][blocks][{{$i}}][title]" placeholder="Название" value="{{ $item->jd("widget.fields.blocks.{$i}.title") }}">
+								</div>
 
-							<div class="col-lg-2">
-								<input  type="text" class="form-control" name="jdata[widget][fields][blocks][{{$i}}][text]" placeholder="Описание" value="{{ $item->jd("widget.fields.blocks.{$i}.text") }}">
-							</div>
+								<div class="col-lg-2">
+									<input  type="text" class="form-control" name="jdata[widget][fields][blocks][{{$i}}][text]" placeholder="Описание" value="{{ $item->jd("widget.fields.blocks.{$i}.text") }}">
+								</div>
 
-							<div class="col-lg-2">
-								<input  type="text" class="form-control" name="jdata[widget][fields][blocks][{{$i}}][url]" placeholder="Ссылка" value="{{ $item->jd("widget.fields.blocks.{$i}.url") }}">
-							</div>
+								<div class="col-lg-2">
+									<input  type="text" class="form-control" name="jdata[widget][fields][blocks][{{$i}}][url]" placeholder="Ссылка" value="{{ $item->jd("widget.fields.blocks.{$i}.url") }}">
+								</div>
 
-							<div class="col-lg-2">
-								<div class="form-group">
-									<div id="cp2" class="input-group colorpicker-component cp2">
-										<input type="text" name="jdata[widget][fields][blocks][{{$i}}][color]" value="{{ $item->jd("widget.fields.blocks.{$i}.color") }}" placeholder="Цвет" class="form-control">
-										<span class="input-group-addon"><i></i></span>
+								<div class="col-lg-2">
+									<div class="form-group">
+										<div id="cp2" class="input-group colorpicker-component cp2">
+											<input type="text" name="jdata[widget][fields][blocks][{{$i}}][color]" value="{{ $item->jd("widget.fields.blocks.{$i}.color") }}" placeholder="Цвет" class="form-control">
+											<span class="input-group-addon"><i></i></span>
+										</div>
 									</div>
 								</div>
-							</div>
 
-						</div>
+							</div>
 						@endfor
 
 						<div class="form-group margin-top-lg">
@@ -58,6 +58,7 @@
 								{{ Form::button('<span class="btn-label"><i class="fa fa-check"></i></span>'.trans('admin_titles.item_save'), ['type' => 'submit', 'class' => 'btn button f-right btn-success btn-labeled']) }}
 							</div>
 						</div>
+
 					</div>
 				</div>
 			</div>
@@ -67,6 +68,7 @@
 			</div>
 
 		{{ Form::close() }}
+
 
 	</div>
 
